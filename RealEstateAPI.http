@@ -1,0 +1,16 @@
+@RealEstateAPI_HostAddress = http://localhost:5125
+
+GET {{RealEstateAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET {{RealEstateAPI_HostAddress}}/GetListings/
+Accept: application/json
+
+GET {{RealEstateAPI_HostAddress}}/PostListing/
+Accept: application/json
+
+GET {{RealEstateAPI_HostAddress}}/DeleteListing/{id}/
+Accept: application/json
+
+
+###
